@@ -12,6 +12,10 @@ elseif PlaceID == 97365843755210 then
     -- Cut Grass For Brainrot
     loadstring(game:HttpGet("https://raw.githubusercontent.com/verizonold937-oss/Rexz-Swing/refs/heads/main/CutGrassForBrainrot"))()
 
+elseif PlaceID == 97365843755210 then
+    -- Reel For Brainrot 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/verizonold937-oss/RexzReelBrainrot/refs/heads/main/RexzReelBrainrot"))()
+
 else
-    LocalPlayer:Kick("Game not supported.\nOnly support:\n- SWING FOR BRAINROT\n- CUT GRASS FOR BRAINROT")
+    LocalPlayer:Kick("Game not supported.\nOnly support:\n- SWING FOR BRAINROT\n- CUT GRASS FOR BRAINROT\n- Reel For Brainrot")
 end
